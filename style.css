@@ -1,0 +1,408 @@
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    background-color: white;
+}
+.navbar .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 37px;
+}
+.navbar .content ul li{
+    list-style: none;
+    padding-left: 40px;
+    font-size: x-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar .content ul li:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.navbar .globe{
+    color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 1270px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.navbar .globe:hover{
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.148);
+}
+
+.navbar .content ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar .btn-light{
+    margin-left: 1330px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-size: larger;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.navbar img{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    margin-top: 17px;
+    margin-left: 100px;
+}
+.navbar .btn-primary{
+    position: absolute;
+    margin-left: 1470px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hero-section .main{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    margin-left: 800px;
+    margin-top: 250px;
+}
+
+.hero-section img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 250px;
+}
+.hero-section .p1{
+    margin-top: 298px;
+    margin-left: 300px;
+    font-size: x-large;
+    color: blue;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.hero-section h1{
+    margin-top: 350px;
+    font-size:0.8in;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.hero-section .p2{
+    position: absolute;
+    margin-top: 630px;
+    font-size: x-large;
+    margin-left: 250px;
+    font-weight: 600;
+}
+
+.hero-section input{
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 250px;
+    padding: 23px 0px;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.hero-section input::placeholder{
+    font-size: large;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(128, 128, 128, 0.831);
+}
+
+.hero-section button{
+    position: absolute;
+    margin-top: 728px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 570px;
+    padding: 23px 60px;
+    font-size: large;
+}
+
+.hero-section2 img{
+    display: flex;
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.hero-section2{
+    position: absolute;
+    margin-top: 1100px;
+    display: flex;
+    padding: 40px 0px;
+    padding-right: 73px;
+    background-color: black;
+    color: white;
+}
+
+.hero-section2 h1{
+    margin-left: 20px;
+    font-size: 59px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-section2 .hero-section2p2{
+    display: inline-block;
+    position:absolute;
+    margin-top: 65px;
+    margin-left: 325px;
+    font-size: x-large;
+}
+
+.hero-section2 button{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 325px;
+    padding: 20px 35px;
+    padding-right: 70px;
+    border-radius: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.section-3
+{
+    margin-top: 1450px;
+    position: absolute;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 170px;
+}
+.table-1
+{
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.table-1 tr
+{
+
+border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+
+}
+.table-1 .myrow-1 td
+{
+    font-size: 15px;
+    color:rgba(128, 128, 128, 0.767)
+    
+}
+.table-1 tr td
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: 18px;
+    color:  black;
+}
+.table-1 tr .myprofit
+{
+    color: green;
+}
+.table-1 tr .myloss
+{
+    color: red;
+}
+.table-1 tr .mycol-2
+{
+    width: 400px;
+}
+.table-1 tr .highlighted-1
+{
+    color: rgba(128, 128, 128, 0.459)
+}
+.table-1 tr button
+{
+    color: white;
+    background-color: rgba(4, 128, 0, 0.719);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 60px;
+}
+.table-1 tr button:hover
+{
+    background-color: rgba(4, 128, 0, 0.842);
+    color: white;
+}
+
+.hero-section3 h1{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -1300px;
+}
+
+.section-4{
+    margin-top: 450px;
+    margin-bottom: 20px;
+    position: absolute;
+}
+.mycontainer-3
+{
+    margin-left: 150px;
+    display: flex;
+    gap: 250px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.mycontainer-3-1 .para-1
+{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+.mycontainer-3-1 .para-2
+{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.842);
+}
+.mycontainer-3-1 button{
+    border-radius: 5px;
+    border: none;   
+    height: 50px;
+    width: 150px;
+    background-color: rgba(0, 68, 255, 0.829);
+    color: white;
+}
+.mycontainer-3-1 button:hover
+{
+    background-color: rgba(0, 0, 255, 0.829);
+    color: white;
+}
+
+.mycontainer-3-2 li
+{
+    height: 70px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.mycontainer-3-2 li .li-1{
+    font-size: 17px;
+}
+
+.section-4 .link{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 620px;
+    font-size: x-large;
+    text-decoration: none;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.section-5{
+    margin-top: 850px;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+.section-5 h1{
+    text-align: center;
+}
+
+.section-5 p{
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+}
+
+.section-6{
+    margin-top: 1650px;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+
+.section-6 h1{
+    text-align: center;
+}
+
+.section-6 p{
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+}
+
+.section-6 img{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-7{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2450px;
+    margin-bottom: 20px;
+    position: absolute;
+    background-color: blue;
+    width: 124.8%;
+    color: white;
+    height: 19vh;
+}
+
+.section-7 .sub1,.sub2,.sub3{
+    margin-left: 300px;
+    text-align: center;
+}
+
+.section-7 .sub1{
+    margin-left: -50px;
+}
+
+.section-8{
+    margin-top: 2680px;
+    margin-bottom: 20px;
+    position: absolute;   
+}
+
+.section-8 h1{
+    text-align: center;
+}
+
+.section-8 p{
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
+
+.section-8 img{
+    margin-top: 20px;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
